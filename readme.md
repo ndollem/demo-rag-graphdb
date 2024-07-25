@@ -13,8 +13,8 @@ This project simulates a Retrieval-Augmented Generation (RAG) agent system using
 
 ## Requirements
 
-- A Neo4j Graph DB account
-- An OpenAI API key
+- A Neo4j Graph DB account at https://neo4j.com/
+- An OpenAI API key at https://openai.com/
 
 
 ### Environment Variables
@@ -27,10 +27,10 @@ The preparation of the project need to be done in several steps below :
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/ndollem/demo-rag-graphdb.git
 
 # Create a virtual environment
-python -m venv venv
+python -m venv sandbox
 
 # Activate the virtual environment
 # On Windows
@@ -65,7 +65,7 @@ Run this command, and it will make the API service available on your localhost p
 ```bash
 chatbot_api/entrypoint.sh
 ```
-It works, you can check on your browser with this url : http://localhost:8000/
+If it works, you can check on your browser with this url : http://localhost:8000/
 It should display the running status
 
 ### Run Frontend
